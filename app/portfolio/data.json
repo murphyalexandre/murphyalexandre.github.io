@@ -1,0 +1,103 @@
+{
+    "name": "Alexandre Murphy-Gonthier",
+    "title": "Software Engineer",
+    "home": "Montreal, Quebec, Canada",
+    "email": "murphyalexandre@gmail.com",
+    "phone": "+1 514-554-0498",
+    "description": {
+        "short": "Soon to be software engineer that loves solving problems and finding new solutions. I do web and desktop software development and analysis.",
+        "long": "Soon to be software engineer with varied technical skills in software development and web development. Versatility, autonomy and quick learning are some of my main upsides; I am always up for a new challenge."
+    },
+    "thumbnail": "/static/img/thumb.jpg",
+    "social": [
+        {"key": "github", "link": "https://github.com/murphyalexandre", "icon": "inverted icon github", "resume": true},
+        {"key": "linkedin", "link": "https://ca.linkedin.com/in/murphyalexandre", "icon": "inverted icon linkedin square", "resume": false}
+    ],
+    "projects": [
+        {
+            "key": 1,
+            "template": "TemplateTwo",
+            "name": "Ghoster",
+            "description": "Pay What You Want and Subscription platform for Quebec artists. Allows users to download full album in different format at an optional cost.",
+            "technologies": "Django, Postgres, Grunt, Amazon S3",
+            "link": "https://www.ghoster.me/misteur-valaire/",
+            "background": "/static/img/template-2.jpg",
+            "images": [
+                {"key": 1, "link": "/static/img/ghoster-1.png", "className": "project"},
+                {"key": 2, "link": "/static/img/ghoster-2.png", "className": "project rotate"}
+            ]
+        },
+        {
+            "key": 2,
+            "template": "TemplateOne",
+            "name": "More Pugs",
+            "description": "A website dedicated to pugs. Connect to various APIs and show pug related pictures in a neverending list.",
+            "technologies": "Angular, Grunt, Various APIs",
+            "link": "http://morepugs.com",
+            "background": "/static/img/morepugs.png"
+        }
+    ],
+    "experience": [
+        {
+            "key": "osedea",
+            "company": "Osedea",
+            "title": "Full Stack Web Developer",
+            "description": "As a fullstack web developer, my tasks were to design various web apps architecture, create APIs to provide data to the frontend, build the web apps interactions with the users and deploy those apps on our Digital Ocean droplets.",
+            "technologies": "PHP (Laravel & ZF2), Python (Django), Javascript (AngularJS), Gulp & Grunt, Sass",
+            "timeframe": "2013-2015"
+        },
+        {
+            "key": "frelancer",
+            "company": "Freelancer",
+            "title": "Full Stack Web Developer",
+            "description": "As a freelancer in web development, I had to deal directly with the clients to get their real needs. Having those, I was able to build robust web sites and CMS to let the clients update their site.",
+            "technologies": "Python (Django, Flask), PHP, Javascript (AngularJS, ReactJS), Grunt, Sass",
+            "timeframe": "2001-2015"
+        },
+        {
+            "key": "giro",
+            "company": "Giro",
+            "title": "Analyst Programmer",
+            "description": "As an analyst-programmer, my tasks were to analyse and fix different aspects of one of the main application known as Acces. I did lots of bug correction, but also new developments on the application using in-house tools.",
+            "technologies": "C/C++, SQL Server 2008 / Oracle, C-Shell",
+            "timeframe": "2012-2013"
+        },
+        {
+            "key": "dalsa",
+            "company": "Teledyne Dalsa",
+            "title": "Junior Software Engineer",
+            "description": "As a junior software engineer, I participated in design and implementation of desktop and embedded software. ",
+            "technologies": "C/C++, Python, MFC, Embedded",
+            "timeframe": "2010-2012"
+        }
+    ],
+    "education": [
+        {
+            "key": "ets",
+            "degree": "Bachelor's Degree",
+            "specialization": "Software Engineering",
+            "school": "École de Technologie Supérieure, Montreal, Quebec, Canada",
+            "timeframe": "2008-2012"
+        }
+    ],
+    "skills": {
+        "languages": [
+            {"key": "python", "name": "Python", "rating": 4},
+            {"key": "php", "name": "PHP", "rating": 5},
+            {"key": "javascript", "name": "Javascript", "rating": 4},
+            {"key": "css", "name": "CSS", "rating": 3}
+        ],
+        "frameworks": [
+            {"key": "django", "name": "Django", "rating": 4},
+            {"key": "flask", "name": "Flask", "rating": 4},
+            {"key": "laravel", "name": "Laravel", "rating": 5},
+            {"key": "angular", "name": "Angular", "rating": 4}
+        ],
+        "various": [
+            {"key": "server", "name": "Server Admin", "rating": 3},
+            {"key": "unit", "name": "Unit Tests", "rating": 4},
+            {"key": "integration", "name": "Integ. Tests", "rating": 3},
+            {"key": "scripting", "name": "Scripting", "rating": 3}
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "murphyalexandre",
+  "version": "0.0.0",
+  "authors": [
+    "Alexandre Murphy-Gonthier <murphyalexandre@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://murphyalexandre.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~1.11.6"
+  }
+}

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Alexandre Murphy-Gonthier - Resume</title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.css">
+        <link rel="application/font-sfnt" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/themes/basic/assets/fonts/icons.ttf">
+        <link href='{{ url_for('static', filename='css/resume.css') }}' rel='stylesheet' type='text/css'>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.13.1/JSXTransformer.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+        <div id="resume"></div>
+
+        <script type="text/jsx" src="{{ url_for('static', filename='js/resume.js') }}"></script>
+    </body>
+</html>
